@@ -47,12 +47,13 @@ export default function App() {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
-              <a
-                href="#"
-                className="px-5 py-3 rounded-2xl bg-cyan-400 text-black font-semibold hover:scale-105 transition"
-              >
-                Download Resume
-              </a>
+             <a
+  href="/resume.pdf"
+  download
+  className="px-5 py-3 rounded-2xl bg-cyan-400 text-black font-semibold hover:scale-105 transition"
+>
+  Download Resume
+</a>
 
               <a
                 href="https://github.com/Keshavbhardwaj1275"
